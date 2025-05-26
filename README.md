@@ -1,6 +1,6 @@
 Este é um sistema CRUD (Create, Read, Update, Delete) simples desenvolvido em Java, focado no gerenciamento de uma pizzaria. Ele permite cadastrar, consultar, atualizar e excluir informações sobre pizzas, clientes e pedidos, simulando as operações básicas de um software de gestão para pequenas pizzarias.
 
-- Funcionalidades
+- Funcionalidades:
 
 Gerenciamento de Pizzas:
 Cadastrar novas pizzas (nome, ingredientes, preço).
