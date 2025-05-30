@@ -12,6 +12,16 @@ public class PedidoController {
         System.out.println("✅ Pedido registrado!");
     }
 
+    public boolean alterarStatusPedido(int id, String novoStatus) {
+        for (Pedido p : pedidos) {
+            if (p.getId() == id) {
+                p.setStatus(novoStatus);
+                return true;
+            }
+        }
+        return false;
+    }
+
     public void listarPedidos() {
         if (pedidos.isEmpty()) {
             System.out.println("📭 Nenhum pedido registrado.");
@@ -26,3 +36,4 @@ public class PedidoController {
                 .forEach(System.out::println);
     }
 }
+
